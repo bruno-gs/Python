@@ -1,0 +1,17 @@
+﻿PARA BINÁRIO:
+num = 183
+bin(num)
+retorna: 0bNUMEROCONVERTIDO
+
+PARA OCTAL:
+num = 183
+oct(num)
+retorna: 0oNUMEROCONVERTIDO
+
+PARA HEXADECIMAL:
+num = 183
+hex(num)
+retorna: 0xNUMEROCONVERTIDO
+
+PARA RETIRAR O “0b, 0o, 0x”:
+.format(bin(num)[2:]) → assim começa a partir da 3° parte, que começa o número.

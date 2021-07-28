@@ -1,0 +1,30 @@
+﻿Tipos de dados: 
+    • int (inteiros)
+    • float (flutuantes/ quebrados)
+    • bool (True/ False)
+    • str (‘palavras’)
+
+print() → Mostra mensagens na tela.
+input() → Apresenta a opção de entrada pelo teclado do usuário.
+
+Tipos de formatação de mensagem:
+print(‘Minha idade é {}, nasci em {}.’.format(idade, ano))
+ou
+print(f’Minha idade é {idade:<20}, nasci em {ano}.’)
+
+:<20 → alinha a esquerda em 20 espaços;
+:>20 → alinha a direita em 20 espaços;
+:=^20 → centraliza em 20 espaços, e coloca em volta o ‘=’;
+:.2f → Duas casas depois da vírgula;
+:.1f → Uma casa depois da vírgula;
+,end=‘ ’ → Depois de terminar a mensagem (aspas). Assim o próximo print entra na mesma linha desse;
+\n → Quebra de linha.
+
+Antecedência - Operadores Aritméticos:
+    1. Parênteses: () ; 
+    2. Exponencial: ** , exp , pow(base, exp) ;
+    3. Multiplicação: * | Divisão: / | Divisão inteira: // | Módulo: %
+    4. Soma: + | Subtração: -
+
+
+
