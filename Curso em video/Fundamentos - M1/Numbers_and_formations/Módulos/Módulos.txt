@@ -1,0 +1,34 @@
+﻿python.org → Saber as bibliotecas.
+
+import math → São importadas todas as funções de matemática.
+	raiz = math.sqrt(num)
+
+from math import sqrt → Importa só a função sqrt (pode importar mais usando ‘,’)
+	raiz = sqrt(num)
+
+ceil → Arredonda para cima.
+floor → Arredonda para baixo.
+trunc → Retira os pontos flutuantes.
+pow → potência.
+sqrt → raiz.
+factorial → Cálculo de fatorial.
+hypot -> Calcula a hipotenusa
+
+
+import random → Sorteia números aleatórios
+	.random → Número entre 0 e 1.
+.randint(inicial, final) → Números inteiros.
+.randint → Números inteiros.
+.choice(lista) → Escolhe um da lista.
+.shuffle(lista) → Muda ordem da lista.
+
+
+from time import sleep:
+	print(‘Processando…’)
+	sleep(3) → pausa o programa por 3 segundos
+
+from datetime import date:
+	ano = date.today().year
+	mes = date.today().month
+	dia = date.today().day
+	data_atual_completa = date.today()
