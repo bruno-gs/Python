@@ -1,0 +1,28 @@
+﻿
+frase[9:13] → Index 9 até 12. É o último -1.
+frase[9:21:2] → 9 até 20, pulando de 2 em 2.
+frase[:5] → Mostra do início até o 4.
+frase[:5] → Mostra do início até o 4.
+frase[15:] → Mostra do 15 até o final.
+frase[9::3] → Do 9 até o final, pulando de 3 em 3.
+
+‘Curso’ in frase → Retorna True ou False.
+
+funções:
+len(frase) → Tamanho da frase, quantas letras.
+frase.count(‘o’) → Quantas vezes aparece o ‘o minúsculo’ na frase.
+frase.count(‘o’,0,13) → Quantas vezes aparece o ‘o minúsculo’ da letra 0 até a letra 12.
+frase.find(‘deo’) → Vai retornar a posição de início do ‘deo’. E se não houver na frase, retornará -1.
+	frase.replace(‘Python’, ‘Android’) → Troca onde tiver ‘Python’ por ‘Android’.
+	frase.upper() → Tudo maiúsculo
+	frase.lower() → Tudo minúsculo
+	frase.capitalize() → Só a 1° maiúscula
+	frase.title() → A 1° de cada palavra será maiúscula
+	frase.strip() → Remove espaços do início e do final.
+	frase.split() → Divide a string em uma lista, a divisão se dá nos espaços
+	‘ ’.join(frase) → Junta novamente a string
+	
+
+
+
+
