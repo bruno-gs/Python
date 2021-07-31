@@ -1,0 +1,16 @@
+﻿Bloco completo:
+if carro.esquerda():
+	turn_to_the_right
+elif carro.direita():
+	turn_to_the_left
+else:
+	keep_straight
+
+
+Bloco reduzido:
+print(‘Carro novo’ if tempo <= 3 else ‘Carro velho’)
+
+
+Várias verificações:
+if con1 and cond2 or cond3:
+
