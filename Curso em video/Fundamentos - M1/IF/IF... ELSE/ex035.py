@@ -14,6 +14,6 @@ cond2 = reta2 < (reta1 + reta3)
 cond3 = reta3 < (reta1 + reta2)
 
 if cond1 and cond2 and cond3:
-    print('As resta PODEM formar um triângulo')
+    print('As retas PODEM formar um triângulo')
 else:
-    print('As resta NÃO PODEM formar um triângulo')
+    print('As retas NÃO PODEM formar um triângulo')
