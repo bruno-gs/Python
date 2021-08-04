@@ -1,0 +1,77 @@
+﻿FOR
+
+
+for c in range(1, 10): → para no final -1 
+	dar passo
+pega
+
+
+for c in range(6, 0, -1): → range(início, fim - 1, iteração)
+	print(c)
+print(‘fim’)
+-- 6,5,4,3,2,1,fim
+
+
+for c in range(0, 7, 2): 
+	print(c)
+print(‘fim’)
+-- 0,2,4,6,fim
+
+
+Contagem até um número:
+n = int(input(‘Digite um n°: ’))
+for c in range(0, n + 1):
+	print(c)
+print(‘FIM’)
+
+
+Somatória de 4 números:
+for c in range(0, 4):
+	n = int(input(‘Digite um valor: ’))
+	s += n
+print(f‘O somatório de todos os valores foi {s}.’)
+
+Inverter uma frase:
+frase = str(input(“Digite uma frase: ”))
+palavras = frase.split		#Separa a frase numa lista
+junto = ‘’.joint(palavras)	#Junta tudo sem espaços, formando uma palavra gigante
+inverso =’’
+for letra in range(len(junto)-1, -1, -1):
+	inverso += junto[letra]
+print(junto, inverso)
+
+
+WHILE
+Usado quando não se sabe o limite para o fim.
+Necessita de um contador em alguns casos para não entrar em loop infinito.
+
+while not apple:
+	dar passo
+pega
+
+
+c=1
+while c<10:
+	print(c)
+	c += 1
+print(‘FIM’)
+
+
+n = 1 
+while n != 0:
+	n = int(input(‘Digite um valor: ’))
+print(‘FIM’)
+
+
+
+INTERROMPENDO WHILE
+
+Comando ‘break’ → ele para o loop
+
+while True:
+	if comando == 12:
+		print(‘continue’)
+	if comando != 12:
+		break
+
+
