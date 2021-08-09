@@ -1,0 +1,22 @@
+﻿São imutáveis
+Identificadas por parênteses ()
+
+lanche = (‘Hambúrguer’, ‘Suco’, ‘Pizza’, Pudim)
+print(lanche[1]) → Suco
+
+EXEMPLOS:
+for cont in range(0, len(lanche)):
+	print(f’Eu vou comer {lanche[cont]} na posição {cont}.’)
+
+O enumerate é usado para pegar a posição e o valor em uma tupla.
+for pos, comida in enumerate(lanche):
+	print(f’Eu vou comer {comida} na posição {pos}.’)
+
+FUNÇÕES:
+tupla.cont(5) → Quantas vezes aparece o 5.
+tupla.index(8) → Qual o valor da posição 8.
+sorted(tupla) → Coloca em ordem ordem alfabética.
+max(tupla) → Maior valor da tupla.
+min(tupla) → Menor valor da tupla.
+
+
