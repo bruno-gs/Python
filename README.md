@@ -6,8 +6,6 @@
 - Continuar meu aprendizado na linguagem de programação
 
 ## :clap: And it's done!
-Feel free to mail me for any doubts/query 
-:email: brugottsfritz@gmail.com
-
-## :heart: Owner
 Made  by [Bruno Gottsfritz](https://github.com/bruno-gs)
+
+:email: brugottsfritz@gmail.com
