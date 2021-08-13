@@ -5,6 +5,6 @@
 - Manter meu desenvolvimento salvo
 - Continuar meu aprendizado na linguagem de programação
 
-## :clap:[Bruno Gottsfritz](https://github.com/bruno-gs)
+## :bulb:[Bruno Gottsfritz](https://github.com/bruno-gs)
 
 :email: brugottsfritz@gmail.com
