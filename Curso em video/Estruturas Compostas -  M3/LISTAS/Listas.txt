@@ -1,0 +1,60 @@
+﻿São mutáveis.
+Identificadas por colchetes [ ].
+
+Criar lista:
+time = []
+time = list()
+time = list(range(4,11)) → [4, 5, 6, 7, 8, 9, 10]
+time = [‘Messi’, ‘Ney’, ‘Henry’, ‘Zarde’] → 0 - Messi; 1 - Ney; etc…
+
+time[3] = ‘Mbappé 96’ → Altera o dado em 3, para ‘Mbappé 96’
+ficando: time = [‘Messi’, ‘Ney’, ‘Henry’, ‘Mbappé 96’]
+
+FUNÇÕES: 
+Além de adicionar em uma certa posição, pode usar:
+time.append(‘Kanté’) → Adiciona ao final da lista.
+time.insert(0, ‘Sergio Ramos’) → Adiciona na posição 0 o ‘Sergio Ramos’ e empurra os demais.
+
+Deletar elementos:
+del time[3] → deleta o dado na posição 3.
+time.pop() →  Para retirar o último elemento.
+time.pop(3) → Mas pode passar o index.
+time.remove(‘Zardes’) → remover passando logo o dado.
+
+Colocar lista em ordem: 
+time.sort()
+time.sort(reverse=True)
+
+Tamanho da lista:
+len(time)
+
+Fazer CÓPIA da lista:
+a = [2, 3, 4]
+b = a [:]
+Excluir o que estiver na lista:
+dado.clear() 
+
+O enumerate é usado aqui também para pegar posição e dados respectivos:
+	for c, v in enumerate(time):
+		print(f’Na posição {c} temos o jogador {v}.’)
+
+Para criar lista com input do usuário:
+valores = list()
+for cont in range(0, 5):
+	valore.append(int(input(“Digite um valor: “))
+
+
+LISTAS COMPOSTAS
+
+EX:
+dados = [‘Pedro’, 25]
+pessoas = []
+pessoas.append(dados[:])
+#Cria lista dentro de lista.
+
+pessoas = [ [‘Pedro’, 25], [‘Marcos’, 32], [‘João’, 12] ] →  [‘Pedro’, 25] é 0 em pessoas.
+
+print(pessoas[0][0]) → Pedro
+print(pessoas[1]) → [‘Marcos’, 32]
+
+
