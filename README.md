@@ -7,4 +7,4 @@
 
 ## :bulb:[Bruno Gottsfritz](https://github.com/bruno-gs)
 
-:email: brugottsfritz@gmail.com
+:email: bgottsfritz@gmail.com
