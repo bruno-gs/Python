@@ -1,0 +1,37 @@
+﻿São identificados por chaves → { }
+São mutáveis.
+Possibilidade de ter índices literais personalizados.
+
+
+Criar dicionário:
+dados = dict()
+dados = {‘Nome’: ‘Pedro’, ‘Idade’: 25}
+
+
+Adicionar Elementos:
+dados[‘Sexo’] = ‘M’
+
+
+Remover Elementos:
+del dados[‘Idade’]
+
+
+Copiar o conteúdo de um dicionário:
+brasil.append(estado.copy())
+
+
+Acesso a dados:
+EX: filme = {‘titulo’ = ‘Star Wars’, ‘ano’ = 1977, ‘diretor’ = ‘George Lucas’}
+
+	print(filme.values()) → ‘Star Wars’ - 1977 - ‘George Lucas’.
+	print(filme.keys()) → titulo , ano, diretor.
+	print(filme.items()) → Tanto chave quanto valor.
+
+	for k(keys), v(values) in filme.items():
+		print(f’O {k} é {v}.’)
+	# Passa por cada chave contida no dicionário apresentando também seu valor.
+	→ O título é Star Wars.
+Dicionários dentro de uma lista:
+
+
+
