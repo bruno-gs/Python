@@ -1,0 +1,41 @@
+﻿Modularização
+Dividir o programa em módulos menores. Difícil analisar programa com 3000 linhas.
+Vantagens:
+	→ Organização do código;
+	→ Facilidade na manutenção;
+	→ Ocultação de código detalhado;
+	→ Reutilizar em outros projetos.
+
+
+→ Colocar as funções em outro arquivo.py, diminuindo a composição total do programa.
+EX:
+arquivo.py
+	def dobro(n):
+		return n * 2
+
+teste.py
+	1°:
+	import arquivo
+	num = int(input(‘Digite um valor: ‘))
+	dobro = teste.dobro(num)
+
+	2°:
+	from arquivo import dobro
+	num = int(input(‘Digite um valor: ‘))
+	dobro = dobro(num)
+
+
+
+
+
+
+
+
+Pacotes
+Pasta que contém módulos. Dá para separar em assuntos, aí cada assunto é um módulo.
+
+
+Para saber se um site está disponível:
+	import urllib.request
+	urllib.request.urlopen(‘site - url’)
+

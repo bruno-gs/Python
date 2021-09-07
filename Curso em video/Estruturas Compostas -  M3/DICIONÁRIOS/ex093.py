@@ -18,8 +18,6 @@ for rodadas in range(1, partidas+1):
     jogador[f'Partida_{rodadas}'] = int(input(f'Quantos gols na partida {rodadas}? '))
     total_gols += jogador[f'Partida_{rodadas}']
 
-# print(jogador)
-
 print(f'O jogador {jogador["Nome"]} jogou {partidas} partidas pelo Santos FC\n \
         Marcando {total_gols} gols.')
 

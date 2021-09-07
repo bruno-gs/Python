@@ -1,0 +1,59 @@
+﻿Usado para coisas que são rotinas no programa. Diminuindo assim a necessidade de repetição.
+EX:
+def mostraLinha():
+	print(‘-’ * 30)
+
+
+def mensagem(msg):
+	print(‘-’ * 30)
+	print(msg)
+	print(‘-’ * 30)
+→ mensagem(‘Sistema de Alunos’)
+
+
+Empacotamento
+Poder usar parâmetros diferentes em chamadas diferentes. Sem definir a quantidade de parâmetros.
+EX:
+def contador(*num):
+	tam = len(num)
+→ contador (3, 1, 7) -- 3 números
+→ contador (8, 8, 9, 10, 11) -- 5 números
+
+
+Interactive Help 
+Duas forma:
+1° Python console: help()
+	Assim, digitando uma função [ex: print] terá as informações necessárias. Há explicação de cada uma.
+→ quit
+
+2° Rodando o comando help() no python: help(print)
+
+
+DOCSTRINGS -- “”” no início e no fim.
+É a informação que aparece ao utilizar o interactive help.
+Usado para explicar o que a função faz e seus parâmetros, para que outras pessoas possam utilizar.
+EX:
+def contador(i, f, p):
+	“””
+	Faz uma contagem e mostra na tela.
+	:parâm i: início da contagem
+	:parâm f: fim da contagem
+:parâm p: passo da contagem
+”””
+
+Parâmetros Opcionais 
+Dar um valor default a um parâmetro, para evitar o erro de algum parâmetro não ser informado na chamada.
+EX:
+def somar(a=0, b=0, c=0):
+	s = a + b + c
+
+
+Retornar Valores
+EX: 
+def somar(a=0, b=0, c=0):
+	s = a + b + c
+	return s
+
+r1 = somar(3, 2, 5)
+r2 = somar(1, 7)
+r3 = somar(4)
