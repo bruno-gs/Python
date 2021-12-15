@@ -5,6 +5,14 @@ for folderName, subfolders, filenames in os.walk(r'C:\Users\ilidio\Documents\CCP
     print(f'The subfolders in {folderName} are: {subfolders}')
     print(f'The filenames in {folderName} are: {filenames}')
     print()
+    
+    for subfolder in subfolders:
+        if 'fish' in subfolder:
+            #os.rmdir(subfolder)
+
+    for file in filenames:
+        if file.endswith('.py'):
+            #shutil.copy(os.join(folderName,file), os.join(folderName,file + '.backup'))   
 
 # One of the outputs
 '''
